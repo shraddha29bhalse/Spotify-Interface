@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    font-family:  'montserrat', sans-serif;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.sidebar{
+    background-color:black;
+    width: 340px;
+    border-radius: 1rem;
+    margin-right: 0.5rem ;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav{
+    margin-top: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100px;
+    background-color: #121212;
+    padding: 0.5rem 0.5rem;
+}
+.nav *{
+    background-color: #121212;
+}
+.nav-option{
+    margin: 0.8rem;
+}
+.nav-option a{
+    padding-left:1rem;
+    opacity: 0.7;
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.library{
+    border-radius: 1rem;
+    background-color: #121212;
+    height: 67.5%;
+    margin-top:0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+.library *{
+    background-color: #121212;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.lib-options img{
+    height: 1.25rem;
+   width:1.25;
+
+}
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+.icons:hover{
+    opacity: 1;
+}
+.box{
+    height: 8rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1.25rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+}
+.par1{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 550;
+    background-color: #232323;
+}
+.par2{
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    opacity: 0.9;
+    background-color: #232323;
+}
+.badge{
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius:7rem;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+.darkbadge{
+    background-color: black;
+    color: #fff;
+}
+.main-content{
+    height: 86.7%;
+    background:#121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    margin-top: 1rem;
+    padding:0 1.5rem 0 1.5rem;
+}
+.song{
+    background-color:#0a0909a8 ;
+}
+.song *{
+    background-color: #0a0909a8;
+}
+.song-nav{
+    display: flex;
+
+}
+.song-main{
+    display: flex;
+    padding:1rem 1.5rem 0 1.3rem;
+    
+}
+.song-main img{
+    width: 15rem;
+}
+h5{
+    margin:0.5rem 0 0 30rem;
+}
+.song-nav button{
+    background-color: black;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    font-weight: 600;
+    margin:0.5rem 0 0 30rem;
+}
+
+.song-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 1.5rem;
+}
+.song-disc{
+    margin-left: 1.5rem;
+    font-weight:600;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-top:1rem ;
+}
+.play{
+
+    border: none;
+    background-color: rgb(30, 212, 78);
+    color: black;
+    padding: 0.8rem 1.7rem 0.8rem 1.7rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    font-size: 0.9rem ;
+    margin: 0 0 1rem 15rem;
+}
+.follow{
+    background-color: #000;
+    padding: 0.8rem 1.9rem 0.8rem 1.9rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border: white solid 0.05rem;
+    margin-left: 0.5rem;
+}
+.dots{
+    margin-left: 1rem;
+    color: #828282;
+}
+
+.sticky-nav{
+    background-color: #121212;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 0 1rem 0;
+    z-index: 10;
+}
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+.sticky-nav-icons{
+    background-color: #121212;
+    margin: 0.75rem;
+}
+.sticky-nav-icons button{
+    margin-right: 1rem;
+}
+.nav-item{
+    margin-right: 1rem;
+}
+.sticky-nav-icons img{
+    background-color: #121212;
+}
+.sticky-nav-options .user{
+    margin-top: 1.7rem;
+    font-size: 2rem;
+    background: #121212;
+}
+.darkbadge i{
+    background-color: black;
+} 
+
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+.cards *{
+    background-color: #121212;
+}
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1.5rem;
+}
+.cards-container{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #121212;
+}
+.card-container *{
+    background-color: #121212;
+}
+.card img{
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+.card p{
+    margin: 0.5rem;
+    background-color: #232323;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+.footer{
+    height:15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white ;
+    opacity: 0.4;
+}
+
+.music-player{    
+    display: flex;    
+    background: #121212;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+}
+.music-player *{
+    background: #121212;
+}
+.first{
+    width: 25%;
+}
+.song-footer img{
+    display: flex;
+    height: 3.5rem;
+    border-radius:3px 3px 0 0;
+    margin:0.7rem;
+}
+.song-footer{
+    display: flex;
+}
+.song-tit{
+    margin-top: 1.4rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.song-dis{
+    margin-top: 0.1rem;
+    font-size: 0.7rem;
+    opacity: 0.8;
+}
+.plus{
+    border-radius: 10px;
+    margin:1rem ;
+}
+.like{
+    margin-top:2rem;
+    margin-left:2rem;
+}
+.player{
+    width: 50%;
+}
+.player *{
+    background-color: inherit;
+}
+.last{
+    width: 25%;
+}
+.player-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pci{
+   height: 1rem;
+   margin-right: 1.5rem;
+   opacity: 0.7;
+}
+.pci:hover{
+    opacity: 1;
+}
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    
+}
+.playback-bar *{
+    padding: 0.7rem;
+    margin-right: 0.8rem;
+}
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    background: linear-gradient(to right, #1bd760 var(--value), #ddd var(--value));
+
+}
+.progress-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 6rem;
+    height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
